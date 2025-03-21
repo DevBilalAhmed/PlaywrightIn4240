@@ -59,17 +59,6 @@ test('Open new checking account', async ({ page }) => {
     await overViewPage.checkIfBankAccountExists(bankAccountNumber);
 });
 
-/*
-test('Transfer funds between 2 accounts', async ({ page }) => {
-    const homePage = new HomePage(page);
-
-    await homePage.navigate();
-
-
-});
-
-
- */
 
 test('Services Page redirect', async ({ page }) => {
     const homePage = new HomePage(page);

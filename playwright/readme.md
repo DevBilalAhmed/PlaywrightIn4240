@@ -8,7 +8,6 @@
 5. [Test Case 3 - Services Test](#test-case-3-services-test)
 6. [Test Case 4 - Failing Login Info](#test-case-4-failing-login-info)
 7. [Test Case 5 - Open a New Checking Account](#test-case-5-open-a-new-checking-account)
-
 ---
 ## Run Guide
 To Run this on your computer you will need\
