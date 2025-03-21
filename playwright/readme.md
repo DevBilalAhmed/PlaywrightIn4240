@@ -7,7 +7,6 @@
 4. [Test Case 3 - Services Test](#test-case-3-services-test)
 5. [Test Case 4 - Failing Login Info](#test-case-4-failing-login-info)
 6. [Test Case 5 - Open a New Checking Account](#test-case-5-open-a-new-checking-account)
-7. [Test Case 6 - Transfer Between Two Accounts](#test-case-6-transfer-between-two-accounts)
 
 ---
 ## User
@@ -121,29 +120,6 @@ Password: parajohn123
 
 ---
 
-## Test Case 6 - Transfer Between Two Accounts
-
-### Test Case Description:
-
-| Step No | Action | Expected Result |
-|---------|--------|----------------|
-| 1 | Open a web browser and navigate to [Parabank Homepage](https://parabank.parasoft.com/parabank/index.htm). | The homepage loads successfully. |
-| 2 | Log into your existing account. | The user is successfully logged in. |
-| 3 | Click **"Accounts Overview"** and ensure you have at least two bank accounts. | The browser redirects to [Accounts Overview](https://parabank.parasoft.com/parabank/overview.htm), displaying at least two accounts. |
-| 4 | Check and note the balance of both accounts. | The account balances are visible. |
-| 5 | Click **"Transfer Funds"**. | The browser redirects to [Transfer Funds Page](https://parabank.parasoft.com/parabank/transfer.htm). |
-| 6 | Enter an amount of **$50** to transfer from one account to another. | The transfer amount is entered successfully. |
-| 7 | Confirm the verification message. | A message confirms the transfer was successful. |
-| 8 | Click **"Accounts Overview"** and check that the transfer is complete. | The balances of both accounts reflect the completed transfer. |
-
-### Expected Results:
-
-- The **Transfer Funds** page should allow users to transfer money between accounts.
-- A **confirmation message** should appear after submitting the transfer.
-- The **account balances** should update accordingly in the **Accounts Overview** section.
-
----
-
 ## Summary
 
 These manual test cases verify the following key features on the Parabank website:
@@ -152,5 +128,4 @@ These manual test cases verify the following key features on the Parabank websit
 - **Services page accessibility**
 - **Handling of incorrect login recovery attempts**
 - **Opening a new checking account**
-- **Transferring funds between accounts**
 ---
