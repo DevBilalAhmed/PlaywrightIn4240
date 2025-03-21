@@ -1,14 +1,24 @@
 # Manual Test Cases for Parabank Website
 
 ## Table of Contents
-1. [User Account](#User)
-2. [Test Case 1 - Customer Care Test](#test-case-1-customer-care-test)
-3. [Test Case 2 - About Test](#test-case-2-about-test)
-4. [Test Case 3 - Services Test](#test-case-3-services-test)
-5. [Test Case 4 - Failing Login Info](#test-case-4-failing-login-info)
-6. [Test Case 5 - Open a New Checking Account](#test-case-5-open-a-new-checking-account)
+1. [Run Guide](#run-guide)
+2. [User Account](#User)
+3. [Test Case 1 - Customer Care Test](#test-case-1-customer-care-test)
+4. [Test Case 2 - About Test](#test-case-2-about-test)
+5. [Test Case 3 - Services Test](#test-case-3-services-test)
+6. [Test Case 4 - Failing Login Info](#test-case-4-failing-login-info)
+7. [Test Case 5 - Open a New Checking Account](#test-case-5-open-a-new-checking-account)
 
 ---
+## Run Guide
+To Run this on your computer you will need\
+Node installed for npm\
+npm install in the directory\
+npx playwright install\
+And now you can run the tests 1 by 1\
+e.g you want to run example.spec.ts\
+npx playwright test example.spec.ts --debug
+
 ## User
 Username: ParaJohn
 Password: parajohn123
